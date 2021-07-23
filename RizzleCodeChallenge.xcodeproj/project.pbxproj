@@ -9,13 +9,23 @@
 /* Begin PBXBuildFile section */
 		4D0585B126A3CA1F0026B593 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0585B026A3CA1F0026B593 /* AppDelegate.swift */; };
 		4D0585B326A3CA1F0026B593 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0585B226A3CA1F0026B593 /* SceneDelegate.swift */; };
-		4D0585B526A3CA1F0026B593 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0585B426A3CA1F0026B593 /* ViewController.swift */; };
 		4D0585B826A3CA1F0026B593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0585B626A3CA1F0026B593 /* Main.storyboard */; };
 		4D0585BB26A3CA1F0026B593 /* RizzleCodeChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D0585B926A3CA1F0026B593 /* RizzleCodeChallenge.xcdatamodeld */; };
 		4D0585BD26A3CA200026B593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0585BC26A3CA200026B593 /* Assets.xcassets */; };
 		4D0585C026A3CA200026B593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0585BE26A3CA200026B593 /* LaunchScreen.storyboard */; };
 		4D0585CB26A3CA210026B593 /* RizzleCodeChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0585CA26A3CA210026B593 /* RizzleCodeChallengeTests.swift */; };
 		4D0585D626A3CA210026B593 /* RizzleCodeChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0585D526A3CA210026B593 /* RizzleCodeChallengeUITests.swift */; };
+		4D0585E526A3CD150026B593 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0585E426A3CD150026B593 /* ExploreViewController.swift */; };
+		4D0585E726A3CE130026B593 /* TableSectionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0585E626A3CE130026B593 /* TableSectionsCell.swift */; };
+		4D0585EB26A3D2D00026B593 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0585EA26A3D2D00026B593 /* NetworkManager.swift */; };
+		4D0585ED26A3D2E20026B593 /* NetworkErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0585EC26A3D2E20026B593 /* NetworkErrors.swift */; };
+		4D0585EF26A3D2FC0026B593 /* FetchThumbNails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0585EE26A3D2FC0026B593 /* FetchThumbNails.swift */; };
+		4D0585F126A3D3150026B593 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0585F026A3D3150026B593 /* VideoModel.swift */; };
+		4D0585F326A3D37F0026B593 /* assignment.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D0585F226A3D37F0026B593 /* assignment.json */; };
+		4D0585F626A3D5100026B593 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0585F526A3D50F0026B593 /* AppConstants.swift */; };
+		4D0585F826A3E0480026B593 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0585F726A3E0480026B593 /* CollectionCell.swift */; };
+		4D71DCD626A6F9A200009650 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D71DCD526A6F9A200009650 /* PlayerCell.swift */; };
+		4D7B3E1626A5624600E24D0A /* PlayerScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7B3E1526A5624600E24D0A /* PlayerScreenController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +49,6 @@
 		4D0585AD26A3CA1F0026B593 /* RizzleCodeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RizzleCodeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0585B026A3CA1F0026B593 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D0585B226A3CA1F0026B593 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D0585B426A3CA1F0026B593 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D0585B726A3CA1F0026B593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D0585BA26A3CA1F0026B593 /* RizzleCodeChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RizzleCodeChallenge.xcdatamodel; sourceTree = "<group>"; };
 		4D0585BC26A3CA200026B593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +60,17 @@
 		4D0585D126A3CA210026B593 /* RizzleCodeChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RizzleCodeChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0585D526A3CA210026B593 /* RizzleCodeChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RizzleCodeChallengeUITests.swift; sourceTree = "<group>"; };
 		4D0585D726A3CA210026B593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D0585E426A3CD150026B593 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		4D0585E626A3CE130026B593 /* TableSectionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableSectionsCell.swift; sourceTree = "<group>"; };
+		4D0585EA26A3D2D00026B593 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4D0585EC26A3D2E20026B593 /* NetworkErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrors.swift; sourceTree = "<group>"; };
+		4D0585EE26A3D2FC0026B593 /* FetchThumbNails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchThumbNails.swift; sourceTree = "<group>"; };
+		4D0585F026A3D3150026B593 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VideoModel.swift; path = RizzleCodeChallenge/NetworkManager/VideoModel.swift; sourceTree = SOURCE_ROOT; };
+		4D0585F226A3D37F0026B593 /* assignment.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = assignment.json; sourceTree = "<group>"; };
+		4D0585F526A3D50F0026B593 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		4D0585F726A3E0480026B593 /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		4D71DCD526A6F9A200009650 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		4D7B3E1526A5624600E24D0A /* PlayerScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScreenController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +121,13 @@
 		4D0585AF26A3CA1F0026B593 /* RizzleCodeChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				4D0585F926A3F5340026B593 /* CellClasses */,
+				4D0585F426A3D4F20026B593 /* AppConstants */,
+				4D0585E926A3D2AF0026B593 /* NetworkManager */,
+				4D0585E826A3D2A50026B593 /* Model */,
+				4D0585E326A3CCF50026B593 /* ViewControllers */,
 				4D0585B026A3CA1F0026B593 /* AppDelegate.swift */,
 				4D0585B226A3CA1F0026B593 /* SceneDelegate.swift */,
-				4D0585B426A3CA1F0026B593 /* ViewController.swift */,
 				4D0585B626A3CA1F0026B593 /* Main.storyboard */,
 				4D0585BC26A3CA200026B593 /* Assets.xcassets */,
 				4D0585BE26A3CA200026B593 /* LaunchScreen.storyboard */,
@@ -129,6 +153,52 @@
 				4D0585D726A3CA210026B593 /* Info.plist */,
 			);
 			path = RizzleCodeChallengeUITests;
+			sourceTree = "<group>";
+		};
+		4D0585E326A3CCF50026B593 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4D0585E426A3CD150026B593 /* ExploreViewController.swift */,
+				4D7B3E1526A5624600E24D0A /* PlayerScreenController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4D0585E826A3D2A50026B593 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D0585F026A3D3150026B593 /* VideoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D0585E926A3D2AF0026B593 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				4D0585EA26A3D2D00026B593 /* NetworkManager.swift */,
+				4D0585EC26A3D2E20026B593 /* NetworkErrors.swift */,
+				4D0585EE26A3D2FC0026B593 /* FetchThumbNails.swift */,
+				4D0585F226A3D37F0026B593 /* assignment.json */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		4D0585F426A3D4F20026B593 /* AppConstants */ = {
+			isa = PBXGroup;
+			children = (
+				4D0585F526A3D50F0026B593 /* AppConstants.swift */,
+			);
+			path = AppConstants;
+			sourceTree = "<group>";
+		};
+		4D0585F926A3F5340026B593 /* CellClasses */ = {
+			isa = PBXGroup;
+			children = (
+				4D0585F726A3E0480026B593 /* CollectionCell.swift */,
+				4D0585E626A3CE130026B593 /* TableSectionsCell.swift */,
+				4D71DCD526A6F9A200009650 /* PlayerCell.swift */,
+			);
+			path = CellClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D0585F326A3D37F0026B593 /* assignment.json in Resources */,
 				4D0585C026A3CA200026B593 /* LaunchScreen.storyboard in Resources */,
 				4D0585BD26A3CA200026B593 /* Assets.xcassets in Resources */,
 				4D0585B826A3CA1F0026B593 /* Main.storyboard in Resources */,
@@ -261,10 +332,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D7B3E1626A5624600E24D0A /* PlayerScreenController.swift in Sources */,
+				4D0585EB26A3D2D00026B593 /* NetworkManager.swift in Sources */,
+				4D71DCD626A6F9A200009650 /* PlayerCell.swift in Sources */,
+				4D0585EF26A3D2FC0026B593 /* FetchThumbNails.swift in Sources */,
 				4D0585BB26A3CA1F0026B593 /* RizzleCodeChallenge.xcdatamodeld in Sources */,
-				4D0585B526A3CA1F0026B593 /* ViewController.swift in Sources */,
+				4D0585E526A3CD150026B593 /* ExploreViewController.swift in Sources */,
+				4D0585F126A3D3150026B593 /* VideoModel.swift in Sources */,
+				4D0585ED26A3D2E20026B593 /* NetworkErrors.swift in Sources */,
+				4D0585E726A3CE130026B593 /* TableSectionsCell.swift in Sources */,
 				4D0585B126A3CA1F0026B593 /* AppDelegate.swift in Sources */,
 				4D0585B326A3CA1F0026B593 /* SceneDelegate.swift in Sources */,
+				4D0585F826A3E0480026B593 /* CollectionCell.swift in Sources */,
+				4D0585F626A3D5100026B593 /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +523,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H9CS4YUWKF;
 				INFOPLIST_FILE = RizzleCodeChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +543,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H9CS4YUWKF;
 				INFOPLIST_FILE = RizzleCodeChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
